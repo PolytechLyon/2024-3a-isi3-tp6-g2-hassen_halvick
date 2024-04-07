@@ -9,8 +9,12 @@ La classe `MobileObject` est un composant, tandis que la classe `Vehicle` est un
 
 Etant donné que la classe `TagAlongBike` herite de la classe `Vehicle`, il n'est pas nécessaire de réécrire les méthodes `getVelocity()` et `getMass()` car elles sont déjà implémentées dans la classe `Vehicle`.
 
-
 ## Exercices 2
+
+Le patron de conception utilisé pour parcourir les composants d'un véhicule dans la méthode `getVelocity()` est le patron de conception "Iterator".
+Il permet de parcourir une collection d'objets sans exposer la structure interne de la collection.
+
+Il permet donc de remplacer la structure de donnée utilisée pour stocker les composants d'un véhicule de `Set` à `List` sans modifier la réalisation de la méthode `getVelocity()`.
 
 ## Exercices 3
 
