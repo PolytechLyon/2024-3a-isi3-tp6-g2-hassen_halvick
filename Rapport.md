@@ -18,6 +18,12 @@ Il permet donc de remplacer la structure de donnée utilisée pour stocker les c
 
 ## Exercices 3
 
+Pour assurer qu'il n'y a qu'une seule instance de la classe `Clock` dans l'application, on utilise le patron de conception **Singleton**.
+Pour cela on doit :
+- Déclarer le constructeur de la classe `Clock` en privé.
+- Déclarer une variable statique de la classe `Clock` qui contiendra l'instance unique de la classe.
+- Déclarer une méthode statique qui permettra de récupérer l'instance unique de la classe `Clock` et de la créer si elle n'existe pas.
+
 ## Exercices 4
 
 ## Exercices 5
