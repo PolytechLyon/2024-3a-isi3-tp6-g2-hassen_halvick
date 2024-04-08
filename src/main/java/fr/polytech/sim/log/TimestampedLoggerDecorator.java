@@ -20,3 +20,4 @@ public class TimestampedLoggerDecorator implements Logger {
         this.wrapped.log(String.format("%s -> %s", new Date(), String.format(format, args)));
     }
 }
+
