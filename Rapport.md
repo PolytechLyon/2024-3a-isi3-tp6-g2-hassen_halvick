@@ -48,8 +48,9 @@ Voir le code source.
 
 ## Exercices 8
 
-Le patron de conception qui suivi la classe `Context` est `Abstract Factory` car elle permet la création d'objet (de type abstrait) sans préciser à la création le type de la classe (fille) utilisée. 
+Le patron de conception qui suivi la classe `Context` est **Facade** car elle facilite l'utilisation de `ServiceLoader`. 
 Il est possible d'avoir plusieurs lignes donc plusieurs instances de `Bike`.
-
+    
 ## Exercices 9
 
+Le patron de conception utilisé est le patron de conception **Iterator** pour parcourir les éléments de retourné par `injectAll` de  `Context`.
