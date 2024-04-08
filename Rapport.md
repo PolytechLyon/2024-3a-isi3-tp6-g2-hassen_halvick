@@ -40,7 +40,11 @@ Voir le code source.
 
 ## Exercices 6
 
+Voir le code source.
+
 ## Exercices 7
+
+Voir le code source.
 
 ## Exercices 8
 
