@@ -1,4 +1,4 @@
-# Compte Rendu du TP 1 : Patrons de Conceptions
+# Compte Rendu du TP 6 : Patrons de Conceptions
 
 Noms des étudiants du binôme : 
 HALVICK Thomas
@@ -47,6 +47,9 @@ Voir le code source.
 Voir le code source.
 
 ## Exercices 8
+
+Le patron de conception qui suivi la classe `Context` est `Abstract Factory` car elle permet la création d'objet (de type abstrait) sans préciser à la création le type de la classe (fille) utilisée. 
+Il est possible d'avoir plusieurs lignes donc plusieurs instances de `Bike`.
 
 ## Exercices 9
 
