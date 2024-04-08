@@ -13,7 +13,7 @@ Etant donné que la classe `TagAlongBike` herite de la classe `Vehicle`, il n'es
 
 ## Exercices 2
 
-Le patron de conception utilisé pour parcourir les composants d'un véhicule dans la méthode `getVelocity()` est le patron de conception "Iterator".
+Le patron de conception utilisé pour parcourir les composants d'un véhicule dans la méthode `getVelocity()` est le patron de conception **Iterator**.
 Il permet de parcourir une collection d'objets sans exposer la structure interne de la collection.
 
 Il permet donc de remplacer la structure de donnée utilisée pour stocker les composants d'un véhicule de `Set` à `List` sans modifier la réalisation de la méthode `getVelocity()`.
@@ -40,7 +40,7 @@ Voir le code source.
 
 ## Exercices 6
 
-Voir le code source.
+La difference entre les deux patrons de conception **Méthode de fabrique** et **Singleton** est que le premier permet de créer des instances d'une classe alors que le deuxième permet de créer une seule instance d'une classe.
 
 ## Exercices 7
 
@@ -49,7 +49,7 @@ Voir le code source.
 ## Exercices 8
 
 Le patron de conception qui suivi la classe `Context` est **Facade** car elle facilite l'utilisation de `ServiceLoader`. 
-Il est possible d'avoir plusieurs lignes donc plusieurs instances de `Bike`.
+Il est possible d'avoir plusieurs lignes donc plusieurs instances de `Bike`. Elle correspond à une liste de vélos que ServiceLoader peut charger.
     
 ## Exercices 9
 
