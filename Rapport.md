@@ -36,6 +36,8 @@ Il y a une abstraction de `Bike` en `Vehicle` dans le paquetage 1 qui permet de 
 
 ## Exercices 5
 
+Voir le code source.
+
 ## Exercices 6
 
 ## Exercices 7
