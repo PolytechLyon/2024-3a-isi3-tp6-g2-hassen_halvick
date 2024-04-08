@@ -1,6 +1,8 @@
 # Compte Rendu du TP 1 : Patrons de Conceptions
 
-Noms des étudiants du binôme :
+Noms des étudiants du binôme : 
+HALVICK Thomas
+GHAZEL Hassen
 
 ## Exercices 1
 
@@ -26,6 +28,12 @@ Pour cela on doit :
 
 ## Exercices 4
 
+Les classes `Bike` et `Wheel` n'appartiennent pas au même paquetage. Il y a une dependance cyclique entre les deux paquetages.
+`Wheel` (paquetage 1) depend de `Bike` (paquetage 2) et `Bike` (paquetage 2) depend de `Vehicle` (paquetage 1).
+C'est un anti-patron de conception.
+
+Il y a une abstraction de `Bike` en `Vehicle` dans le paquetage 1 qui permet de résoudre ce problème.   
+
 ## Exercices 5
 
 ## Exercices 6
@@ -34,4 +42,5 @@ Pour cela on doit :
 
 ## Exercices 8
 
+## Exercices 9
 
