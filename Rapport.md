@@ -31,8 +31,11 @@ Pour cela on doit :
 Les classes `Bike` et `Wheel` n'appartiennent pas au même paquetage. Il y a une dependance cyclique entre les deux paquetages.
 `Wheel` (paquetage 1) depend de `Bike` (paquetage 2) et `Bike` (paquetage 2) depend de `Vehicle` (paquetage 1).
 C'est un anti-patron de conception.
+Cette dependance est un problème car elle rend impossible la séparation des deux paquetages en deux modules distincts.
 
-Il y a une abstraction de `Bike` en `Vehicle` dans le paquetage 1 qui permet de résoudre ce problème.   
+`Wheel` utilise la fonction `getPush()` de `Bike` or celle-ci est abstraite dans `Vehicle`.
+
+Il y a donc une abstraction de `Bike` en `Vehicle` dans le paquetage 1 qui permet de résoudre ce problème.   
 
 ## Exercices 5
 
